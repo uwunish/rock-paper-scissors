@@ -22,12 +22,12 @@ function getHumanChoice() {
 	// Ask the user "Rock, Paper or Scissors? " and return the choice to "humanChoice"
 	let userChoice = prompt("Rock, Paper or Scissors? ");
 	userChoice = userChoice.toLowerCase();
-	console.log(userChoice);
 	if (
 		userChoice === "rock" ||
 		userChoice === "paper" ||
 		userChoice === "scissors"
 	) {
+		console.log(userChoice);
 		return userChoice;
 	} else {
 		console.log("Invalid Choice... Please try again");
